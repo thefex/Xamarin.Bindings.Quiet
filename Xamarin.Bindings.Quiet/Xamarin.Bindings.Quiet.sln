@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.Quiet", "Xamarin.Bindings.Quiet\Xamarin.Bindings.Quiet.csproj", "{FC6965F8-7DA9-43A9-8B8D-888EF0C534E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Droid", "Droid", "{0DDC319C-93ED-432F-AA2B-C5966A32636D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidTestProject", "Xamarin.Bindings.Quiet\DroidTestProject\DroidTestProject.csproj", "{3645C89D-BEE3-4502-AFAC-CFA2F55E4344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{2E428C1B-5E77-4C3B-A6EA-62B81314DE3E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Xamarin.Bidings.Quiet.Droid.nuspec = ..\Xamarin.Bidings.Quiet.Droid.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6965F8-7DA9-43A9-8B8D-888EF0C534E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6965F8-7DA9-43A9-8B8D-888EF0C534E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6965F8-7DA9-43A9-8B8D-888EF0C534E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6965F8-7DA9-43A9-8B8D-888EF0C534E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3645C89D-BEE3-4502-AFAC-CFA2F55E4344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3645C89D-BEE3-4502-AFAC-CFA2F55E4344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3645C89D-BEE3-4502-AFAC-CFA2F55E4344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3645C89D-BEE3-4502-AFAC-CFA2F55E4344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC6965F8-7DA9-43A9-8B8D-888EF0C534E8} = {0DDC319C-93ED-432F-AA2B-C5966A32636D}
+		{3645C89D-BEE3-4502-AFAC-CFA2F55E4344} = {0DDC319C-93ED-432F-AA2B-C5966A32636D}
+	EndGlobalSection
+EndGlobal
