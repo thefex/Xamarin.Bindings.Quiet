@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Xamarin.Bindings.Quiet.Droid</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <title>Xamarin.Bindings.Quiet.Droid</title>
         <authors>InsaneLab.com,Przemys?aw Raciborski [thefex]</authors>
         <projectUrl>https://github.com/thefex/Xamarin.Bindings.Quiet/</projectUrl>
@@ -10,7 +10,7 @@
         <description>Android Xamarin bindings for Quiet Android.</description>
         <dependencies>
             <group targetFramework="MonoAndroid">
-                <dependency id="Xamarin.Android.Support.v7.AppCompat" version="26.0.2"/>
+                <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2"/>
             </group>
         </dependencies>
     </metadata>

@@ -70,6 +70,9 @@
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>..\..\packages\Xamarin.Android.Support.v7.AppCompat.26.0.2\lib\MonoAndroid80\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Bindings.Quiet">
+      <HintPath>..\..\packages\Xamarin.Bindings.Quiet.Droid.1.0.0\lib\MonoAndroid\Xamarin.Bindings.Quiet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

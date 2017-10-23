@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Xamarin.Bindings.Quiet.iOS</id>
+        <version>1.0.0</version>
+        <title>Xamarin.Bindings.Quiet.iOS</title>
+        <authors>InsaneLab.com,Przemysław Raciborski [thefex]</authors>
+        <projectUrl>https://github.com/thefex/Xamarin.Bindings.Quiet/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>iOS Xamarin bindings for Quiet iOS.</description>
+    </metadata>
+    <files>
+        <file src="Xamarin.Bindings.Quiet\Xamarin.Bindings.Quiet.iOS\bin\Release\Xamarin.Bindings.Quiet.iOS.dll" target="lib\Xamarin.iOS10" />
+    </files>
+</package>
